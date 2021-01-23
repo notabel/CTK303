@@ -11,8 +11,12 @@ h3 {
   font-size: 30px;
 }
 
-ul {
-  font-size: 15px;
+body {
+background-color: #F0F3BD;
+}
+
+.textcenter {
+text-align: center;
 }
 
 .custom {

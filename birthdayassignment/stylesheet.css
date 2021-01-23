@@ -4,3 +4,23 @@ h1 {
 h2 {
   color: #8B80F9;
 }
+
+a {
+ color: #ff0000;
+}
+
+a:link {
+ color: #f42272;
+}
+
+a:visited {
+ color: #f42242;
+}
+
+a:active {
+ color: #f42272;
+}
+
+a:hover {
+ color: #ffc09f;
+}

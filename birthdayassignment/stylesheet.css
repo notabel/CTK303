@@ -15,6 +15,11 @@ ul {
   font-size: 15px;
 }
 
+.custom {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+   color: transparent;
+}
+
 .customtext {
 font-family: Arial, Helvetica, sans-serif;
 font-style: italic;

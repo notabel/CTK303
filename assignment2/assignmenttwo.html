@@ -6,7 +6,13 @@
     <title>Assignment Two</title>
   </head>
   <body>
-    <header></header>
+    <button id="mybutton">Click Me!</button>
+      <p class="peekaboo">Some Text</p>
     <!-- Comment -->
+    <script>
+      $( "#mybutton" ).click(function() {
+        $( ".peekaboo" ).fadeToggle( );
+      });
+    </script>
   </body>
 </html>

@@ -1,0 +1,9 @@
+nav {
+  position:fixed;
+  left: 24px;
+  background-color: white;
+}
+
+nav ul li {
+  display:inline-block;
+}

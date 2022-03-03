@@ -1,7 +1,24 @@
-h1 {
- color: #6cd4ff;
- font-size: 50px;
+.invite {
+  border: 10px solid #FFE57D;
+  padding: 50px 50px 50px 50px;
+  margin: 30px 30px 30px 30px;
 }
+
+.heading {
+  min-height: 50%;
+  min-width: 50%;
+  max-width: 75%;
+  max-height: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+h1 {
+  color: #6cd4ff;
+  font-size: 50px;
+}
+
 h2 {
   color: #8B80F9;
   font-size: 40px;
@@ -12,50 +29,75 @@ h3 {
 }
 
 body {
-background-color: #FFE57D;
+  background-color: #FFE57D;
+  text-align: center;
 }
 
 .textcenter {
-text-align: center;
+  text-align: center;
 }
 
 .custom {
-  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
-   color: transparent;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
 }
 
 .customtext {
-font-family: Arial, Helvetica, sans-serif;
-font-style: italic;
-font-weight: bold;
-font-size: 30px;
-color: purple;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  color: purple;
+  text-align: center;
 }
 
 .fontcombined {
-font: bold 20px Arial, Helvetica, sans-serif;
+  font: bold 20px Arial, Helvetica, sans-serif;
 }
 
 p {
   size:
 }
 
+.customtext {
+  border: 2px solid #FFE57D;
+  padding: 20px 20px 20px 20px;
+  margin: 10px 10px 10px 10px;
+}
+
+.customtext2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 30px;
+  color: pink;
+  text-shadow: 2px 2px 2px #red;
+  /* x, y, blur, color */
+  text-align: center;
+}
+
+ul {
+  font-size: 40x;
+}
+
 a {
- color: #ff0000;
+  color: #ff0000;
+  font-size: 40x;
 }
 
 a:link {
- color: #8B80F3;
+  color: #8B80F3;
 }
 
 a:visited {
- color: #f42242;
+  color: #f42242;
 }
 
 a:active {
- color: #f42272;
+  color: #f42272;
 }
 
 a:hover {
- color: #ffc09f;
+  color: #ffc09f;
 }
